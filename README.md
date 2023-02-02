@@ -97,3 +97,6 @@ Building a User-Based Todo App using Django version 4
         http://127.0.0.1:8000/
 
         DONE :)
+
+
+## 02. MODELS
