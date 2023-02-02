@@ -129,3 +129,8 @@ Building a User-Based Todo App using Django version 4
         Email address: admin@admin.com
         Password:admin
         Password (again):admin
+
+
+## 03. CLASS BASED VIEWS
+
+
