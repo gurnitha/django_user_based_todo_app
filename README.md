@@ -74,3 +74,26 @@ Building a User-Based Todo App using Django version 4
         (venv3941) λ python manage.py runserver
 
         DONE :)
+
+
+#### 04. Creating Hello world 
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Create urls.py and home path
+        (venv3941) λ touch apps/todo/urls.py
+        new file:   apps/todo/urls.py
+
+        3. Define task_list_view method which returs Hello World
+        modified:   apps/todo/views.py
+
+        4. Register todo/urls.py
+        modified:   config/urls.py
+
+        5. Testing
+        http://127.0.0.1:8000/
+
+        DONE :)
