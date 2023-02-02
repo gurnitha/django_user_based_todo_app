@@ -55,3 +55,22 @@ Building a User-Based Todo App using Django version 4
         new file:   apps/todo/models.py
         new file:   apps/todo/tests.py
         new file:   apps/todo/views.py
+
+
+#### 03. Register todo app to confit/settings.py
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Modified apps.py file
+        modified:   apps/todo/apps.py
+
+        3. Register toto app
+        modified:   config/settings.py
+
+        4. Testing
+        (venv3941) λ python manage.py runserver
+
+        DONE :)
