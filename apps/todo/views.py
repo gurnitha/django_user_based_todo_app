@@ -3,9 +3,13 @@
 # Import django modules
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.views.generic.list import ListView
+
+# Import from locals
+from apps.todo.models import Task
 
 # Create your views here.
 
-def task_list_view(request):
-	return HttpResponse('Hello World!')
+class TaskList(ListView):
+	model = Task
 

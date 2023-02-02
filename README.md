@@ -134,3 +134,56 @@ Building a User-Based Todo App using Django version 4
 ## 03. CLASS BASED VIEWS
 
 
+#### 03.1 Creating TaskListView
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Creating home path
+        modified:   apps/todo/urls.py
+
+        # Import from locals
+        from apps.todo.views import TaskListView
+
+        app_name = 'todo'
+
+        urlpatterns = [
+            path('', TaskListView.as_view(), name='tasks'),
+        ]
+
+        3. Creating views
+        modified:   apps/todo/views.py
+
+        from django.views.generic.list import ListView
+
+        # Import from locals
+        from apps.todo.models import Task
+
+        # Create your views here.
+
+        class TaskListView(ListView):
+                model = Task
+
+        4. Testing: run server and go to browser
+        http://127.0.0.1:8000/
+
+        TemplateDoesNotExist at /
+        todo/task_list.html
+
+        NOTE:
+
+        1. It creates error
+        2. Using ListView, by default it searchs for tempate name at todo/task_list.html
+           it derives from the view class TaskList
+
+        NEXT: Create template: todo/task_list.html
+
+
+
+
+
+
+
+

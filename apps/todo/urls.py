@@ -4,10 +4,10 @@
 from django.urls import path
 
 # Import from locals
-from apps.todo import views  
+from apps.todo.views import TaskList
 
 app_name = 'todo'
 
 urlpatterns = [
-    path('', views.task_list_view, name='task_list_view'),
+    path('', TaskList.as_view(), name='tasks'),
 ]
