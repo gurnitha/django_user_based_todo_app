@@ -111,3 +111,21 @@ Building a User-Based Todo App using Django version 4
 
         > (venv3941) λ python manage.py makemigrations
         > (venv3941) λ python manage.py migrate
+
+
+#### 02.2 Register Task model to admin.py and create superuser
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Register Task model to admin.py
+        modified:   apps/todo/admin.py
+
+        3. Create superuser
+        > (venv3941) λ python manage.py createsuperuser
+        Username (leave blank to use 'hp'): admin
+        Email address: admin@admin.com
+        Password:admin
+        Password (again):admin
