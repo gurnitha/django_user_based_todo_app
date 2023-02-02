@@ -100,3 +100,14 @@ Building a User-Based Todo App using Django version 4
 
 
 ## 02. MODELS
+
+
+#### 02.1 Creating Task model, run and apply migrations
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        > (venv3941) λ python manage.py makemigrations
+        > (venv3941) λ python manage.py migrate
