@@ -181,6 +181,26 @@ Building a User-Based Todo App using Django version 4
         NEXT: Create template: todo/task_list.html
 
 
+#### 03.2 Creating task_list template
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Activating django templates
+        modified:   config/settings.py
+
+        3. Create a template and add some text
+        new file:   templates/todo/task_list.html
+
+        4. Testing: refresh the browser
+
+        DONE:)
+
+        NEXT: Rendering some data to the template
+
+
 
 
 
