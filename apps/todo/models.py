@@ -13,8 +13,9 @@ class Task(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(null=True, blank=True)
     in_progress = models.BooleanField(default=False)
-    complete = models.BooleanField(default=False)
-    pending = models.BooleanField(default=False)
+    done = models.BooleanField(default=False)
+    review = models.BooleanField(default=False)
+    unnecessary = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
@@ -22,4 +23,4 @@ class Task(models.Model):
         return self.title
 
     class Meta:
-        ordering = ['-complete']
+        ordering = ['-done']

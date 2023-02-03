@@ -201,6 +201,36 @@ Building a User-Based Todo App using Django version 4
         NEXT: Rendering some data to the template
 
 
+#### 03.3 Modified Task model
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Modified Task model: adding more fields
+        modified:   apps/todo/models.py
+
+        class Task(models.Model):
+
+            user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+            title = models.CharField(max_length=200)
+            description = models.TextField(null=True, blank=True)
+            in_progress = models.BooleanField(default=False)
+            done = models.BooleanField(default=False)
+            review = models.BooleanField(default=False)
+            unnecessary = models.BooleanField(default=False)
+            created = models.DateTimeField(auto_now_add=True)
+            updated = models.DateTimeField(auto_now=True)
+
+            def __str__(self):
+                return self.title
+
+            class Meta:
+                ordering = ['-done']
+
+        3. Run migrations
+        new file:   apps/todo/migrations/0002_alter_task_options_rename_complete_task_done_and_more.py
 
 
 
