@@ -251,5 +251,16 @@ Building a User-Based Todo App using Django version 4
         modified:   .gitignore
 
 
+#### 03.5 Template inheritance
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Creating template inheritance
+        new file:   templates/partials/aside.html
+        new file:   templates/partials/footer.html
+        modified:   templates/todo/task_list.html
 
 
