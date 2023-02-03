@@ -233,6 +233,22 @@ Building a User-Based Todo App using Django version 4
         new file:   apps/todo/migrations/0002_alter_task_options_rename_complete_task_done_and_more.py
 
 
+#### 03.4 Adding template
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Adding template, setup static and media files
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/base.html
+        new file:   templates/todo/kanban.html
+        modified:   templates/todo/task_list.html
+
+        3. Git ignore
+        modified:   .gitignore
 
 
 

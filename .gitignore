@@ -1,3 +1,6 @@
+# new by ing
+config/static
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
