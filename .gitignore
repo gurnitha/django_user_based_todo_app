@@ -1,5 +1,7 @@
 # new by ing
 config/static
+_docs
+venv3941
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

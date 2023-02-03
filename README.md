@@ -266,3 +266,27 @@ Building a User-Based Todo App using Django version 4
 
 ## 04. TODO CRUD
 
+
+#### 04.1 Rendering todos 
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Modified
+        modified:   .gitignore
+
+        3. Modified
+        modified:   templates/base.html
+        
+        4. Render taks id
+        modified:   templates/todo/task_list.html
+
+        5. Removed
+        deleted:    templates/partials/aside.html
+        deleted:    templates/partials/footer.html
+
+        DONE :
+
+        NEXT: Using context_object_name
