@@ -290,3 +290,27 @@ Building a User-Based Todo App using Django version 4
         DONE :
 
         NEXT: Using context_object_name
+
+
+#### 04.2 Using context_object_name to render object_list
+
+        Activities
+
+        1. Modified readme file
+        modified:   README.md
+
+        2. Adding context_object_name
+        modified:   apps/todo/views.py
+
+        class TaskList(ListView):
+                model = Task
+                context_object_name = 'tasks'
+
+        3. Rendering 'tasks'
+        modified:   templates/todo/task_list.html
+
+        {% for task in tasks %}
+
+        DONE :)
+
+        NEXT: TaskDetail
